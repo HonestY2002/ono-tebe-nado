@@ -172,7 +172,6 @@ background-image: url(../images/card-lot-03.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
- 
 }
 
 .cards__title {
@@ -201,7 +200,6 @@ letter-spacing: 0.2px;
     font-weight: 400;
     font-size: 20px;
     padding-left: 64px;  
-
 }
 
 .about{
@@ -266,7 +264,6 @@ letter-spacing: 0.2px;
     list-style-type: none;
     padding-left: 221px;
     padding-right: 188px;
-   
 }
 
 .footer__address{
@@ -279,7 +276,6 @@ letter-spacing: 0.2px;
     display: flex;
     width: 48px;
     height: 48px;
-
     margin-right: 50px;
 }
 
