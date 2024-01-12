@@ -24,7 +24,7 @@
 
 .header__logo {
 padding-left: 11px;
-    width: 148px;
+ width: 148px;
 height: 105px;
 }
 
@@ -129,7 +129,7 @@ font-weight: 500;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 64px;    
+    padding-left: 64px;
 }
 
 .lots__card-list{
@@ -149,8 +149,7 @@ padding-bottom: 30px;
     display: flex;
     margin-top: 27px;
     width: 334px;
-    height: 563px;
-    
+    height: 563px;  
 }
 
 .card_type_film{
@@ -208,7 +207,6 @@ letter-spacing: 0.2px;
     padding-left: 71px;
 }
 
-
 .about__logo{
     width: 240px;
     height: 240px;
@@ -216,8 +214,9 @@ letter-spacing: 0.2px;
     border-radius: 240px;
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
+
 .about__logo-image{
     background-image: url(../images/logo-white.svg);
     width: 148px;
