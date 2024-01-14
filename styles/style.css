@@ -245,19 +245,19 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 185px;
   margin-top: 181px;
-  margin-left: 51px;
+  margin-left: 50px;
   margin-bottom: 88px;
-  margin-right: 50px;
-  width: 1052px;
+  margin-right: 51px;
 }
 
 .footer__menu {
   font-size: 18px;
   text-align: center;
   text-decoration: none;
-  list-style-type: none;
+  list-style-type: none; 
 }
 
 .footer__address {
