@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   margin-top: 92px;
-  margin-left: 24px;
+  margin-left: 28px;
   margin-bottom: 96px;
   width: 1052px;
 }
@@ -11,9 +11,11 @@
   display: flex;
   font-weight: 400;
   list-style-type: circle;
-  column-gap: 50px;
+  column-gap: 33px;
   padding-top: 44px;
   font-size: 18px;
+  justify-content: center;
+  letter-spacing: 0.1px;
 }
 
 .link-to-main {
@@ -23,21 +25,19 @@
 
 .header__logo {
   display: flex;
-  justify-content: center;
   width: 148px;
   height: 105px;
 }
 
 .contacts__list {
-  height: 24px;
-  font-size: 18px;
   line-height: 24.3px;
   list-style-type: none;
-  padding-top: 8px;
-  padding-right: 60px;
+  padding-top: 9px;
+  padding-left: 110px;
   font-style: normal;
-  justify-content: right;
+  justify-content: center;
   display: grid;
+  flex-direction: column;
 }
 
 .overlay {
@@ -64,7 +64,7 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
-  padding: 165px 35px 135px 50px;
+  padding: 165px 50px 135px 50px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -91,16 +91,21 @@
   letter-spacing: 60px;
 }
 
+.no_letter-spacing {
+  letter-spacing: 30px;
+}
+
 .cover__description {
   display: flex;
   text-transform: uppercase;
   justify-content: space-between;
   font-size: 22px;
   align-items: center;
-  letter-spacing: 1.3px;
+  letter-spacing: 3px;
   padding-left: 78px;
   padding-right: 50px;
   padding-bottom: 51px;
+  letter-spacing: 3px;
 }
 
 .cover__description-text {
@@ -251,6 +256,7 @@
   margin-left: 50px;
   margin-bottom: 88px;
   margin-right: 51px;
+  width: 100%;
 }
 
 .footer__menu {
@@ -258,12 +264,14 @@
   text-align: center;
   text-decoration: none;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-right: 85px;
 }
 
 .footer__address {
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 0.18px;
 }
 
 .footer__social-icon {
@@ -271,4 +279,5 @@
   width: 48px;
   height: 48px;
   gap: 48px;
+  justify-content: center;
 }
