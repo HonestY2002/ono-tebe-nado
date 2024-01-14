@@ -55,7 +55,6 @@
   color: white;
   background-size: cover;
   margin-bottom: 179px;
-  word-spacing: 10px;
   background-position: center;
   position: relative;
 }
@@ -201,7 +200,7 @@
 
 .about {
   display: flex;
-  padding-top: 183px;
+  padding-top: 180px;
   padding-left: 71px;
 }
 
@@ -247,10 +246,11 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  padding-top: 181px;
-  padding-bottom: 88px;
-  margin-left: 52px;
-  margin-right: 40px;
+  margin-top: 181px;
+  margin-left: 51px;
+  margin-bottom: 88px;
+  margin-right: 50px;
+  width: 1052px;
 }
 
 .footer__menu {
@@ -258,7 +258,6 @@
   text-align: center;
   text-decoration: none;
   list-style-type: none;
-  justify-content: center;
 }
 
 .footer__address {
