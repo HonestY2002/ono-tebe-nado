@@ -110,6 +110,10 @@
 .cover__description-text {
   font-weight: 400;
   z-index: 3;
+  line-height: 28px;
+  font-size: 22px;
+  letter-spacing: 0.1px;
+  word-spacing: 18.4px;
 }
 
 .bet-button {
