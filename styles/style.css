@@ -5,17 +5,15 @@
   margin-left: 24px;
   margin-bottom: 96px;
   width: 1052px;
-  height: 105px;
 }
 
 .header__menu {
   display: flex;
-  font-size: 18px;
   font-weight: 400;
   list-style-type: circle;
-  letter-spacing: 0.18px;
-  column-gap: 32px;
-  padding: 44px 36px 40px 26px;
+  column-gap: 50px;
+  padding-top: 44px;
+  font-size: 18px;
 }
 
 .link-to-main {
@@ -36,16 +34,19 @@
   line-height: 24.3px;
   list-style-type: none;
   padding-top: 8px;
+  padding-right: 60px;
   font-style: normal;
-  padding-left: 185px;
+  justify-content: right;
+  display: grid;
 }
 
 .overlay {
-  position: relative;
-  z-index: 1;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
+  z-index: 0;
+  position: absolute;
+  z-index: 0;
 }
 
 .cover {
@@ -57,7 +58,7 @@
   margin-bottom: 179px;
   word-spacing: 10px;
   background-position: center;
-  height: 757px;
+  position: relative;
 }
 
 .cover__title {
@@ -65,12 +66,12 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
-  padding: 165px 50px 100px 50px;
+  padding: 165px 35px 135px 50px;
   display: flex;
   flex-direction: column;
   position: relative;
   font-style: normal;
-  gap: 20px;
+  letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -89,10 +90,9 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 60px;
 }
 .no-letter-spacing {
-  letter-spacing: 60px;
 }
 
 .cover__description {
@@ -104,10 +104,12 @@
   letter-spacing: 1.3px;
   padding-left: 78px;
   padding-right: 50px;
+  padding-bottom: 51px;
 }
 
 .cover__description-text {
   font-weight: 400;
+  z-index: 3;
 }
 
 .bet-button {
@@ -121,6 +123,7 @@
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 500;
+  z-index: 4;
 }
 
 .lots__heading {
@@ -128,28 +131,35 @@
   font-weight: 700;
   text-transform: uppercase;
   padding-left: 64px;
+  margin-bottom: 27px;
 }
 
 .lots__card-list {
-  display: flex;
   color: #fff;
+  display: flex;
+}
+
+.lots__card-list-item {
+  min-height: 563px;
+  display: flex;
 }
 
 .card-link {
   display: flex;
   list-style-type: none;
   text-decoration: none;
-  padding-left: 24px;
+  padding-left: 25px;
   padding-bottom: 30px;
 }
 
 .card {
-  margin-top: 27px;
+  display: flex;
   width: 334px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 563px;
+  position: relative;
+  flex-direction: column;
 }
 
 .card_type_film {
@@ -172,15 +182,19 @@
   padding-right: 40px;
   font-size: 22px;
   text-transform: uppercase;
+  z-index: 5;
 }
 
 .card__text {
-  bottom: 48px;
   line-height: 24px;
   font-size: 20px;
+  font-weight: 400;
+  z-index: 6;
+  margin-top: auto;
+  margin-bottom: 0;
   padding-left: 40px;
   padding-right: 40px;
-  position: absolute;
+  padding-bottom: 48px;
 }
 
 .lots__look-more-link {
