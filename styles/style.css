@@ -14,7 +14,7 @@
   list-style-type: circle;
   padding-top: 46px;
   font-size: 18px;
-  gap: 30px;
+  gap: 35px;
   justify-content: center;
 }
 
@@ -36,6 +36,7 @@
   font-style: normal;
   font-size: 18px;
   justify-self: end;
+  padding-right: 60px;
 }
 
 .overlay {
@@ -62,12 +63,12 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 100px;
-  padding: 165px 50px 125px ;
+  padding: 165px 50px 120px 50px;
   display: flex;
   flex-direction: column;
   position: relative;
   font-style: normal;
-  gap: 5px;
+  gap: 8px;
   letter-spacing: 30px;
 }
 
@@ -103,7 +104,7 @@
   letter-spacing: 3px;
   padding-left: 78px;
   padding-right: 50px;
-  padding-bottom: 51px;
+  padding-bottom: 50px;
 }
 
 .cover__description-text {
@@ -229,7 +230,7 @@
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
-  padding-top: 96px;
+  padding-top: 98px;
   padding-left: 72px;
 }
 
@@ -252,11 +253,11 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr 0.4fr 1fr;
   margin-top: 181px;
   margin-bottom: 88px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 54px;
 }
 
 .footer__menu {
@@ -266,7 +267,6 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  text-wrap: nowrap;
 }
 
 .footer__address {
