@@ -254,7 +254,7 @@
   grid-template-columns: 1fr min-content 1fr;
   margin-top: 181px;
   margin-bottom: 88px;
-  gap: 11.5em ;
+  gap: 11.5em;
 }
 
 .footer__menu {
@@ -271,7 +271,7 @@
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
-   margin-left: 50px;
+  margin-left: 50px;
 }
 
 .footer__social-icon {
