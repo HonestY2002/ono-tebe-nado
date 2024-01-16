@@ -35,7 +35,7 @@
   padding-top: 5px;
   font-style: normal;
   font-size: 18px;
-  justify-self: center;
+  justify-self: end;
 }
 
 .overlay {
@@ -252,10 +252,10 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-template-columns: 1fr min-content 1fr;
   margin-top: 181px;
   margin-bottom: 88px;
-  max-width: 1052px;
+  margin-left: 50px;
   margin-right: 50px;
 }
 
@@ -266,20 +266,19 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-self: center;
+  text-wrap: nowrap;
 }
 
 .footer__address {
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
-  margin-left: 50px;
 }
 
 .footer__social-icon {
   display: flex;
   width: 48px;
   height: 48px;
-  justify-self: center;
   gap: 48px;
+  justify-self: center;
 }
