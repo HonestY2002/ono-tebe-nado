@@ -12,7 +12,7 @@
   display: flex;
   font-weight: 400;
   list-style-type: circle;
-  padding-top: 44px;
+  padding-top: 46px;
   font-size: 18px;
   gap: 30px;
   justify-content: center;
@@ -34,8 +34,8 @@
   list-style-type: none;
   padding-top: 5px;
   font-style: normal;
-  justify-self: center;
   font-size: 18px;
+  justify-self: center;
 }
 
 .overlay {
@@ -83,7 +83,7 @@
 
 .aligned-text_right {
   display: flex;
-  justify-content: end;
+  justify-content: right;
 }
 
 .letter-spacing-extended {
@@ -280,8 +280,6 @@
   display: flex;
   width: 48px;
   height: 48px;
-justify-self: center;
+  justify-self: center;
   gap: 48px;
 }
-
-*,*::before,*::after {outline: 1px solid red}
