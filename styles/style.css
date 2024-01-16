@@ -1,9 +1,10 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  margin-top: 92px;
-  margin-left: 28px;
   margin-bottom: 96px;
+  margin-left: 24px;
+  margin-top: 92px;
+  margin-right: 24px;
   width: 1052px;
 }
 
@@ -11,11 +12,10 @@
   display: flex;
   font-weight: 400;
   list-style-type: circle;
-  column-gap: 33px;
   padding-top: 44px;
   font-size: 18px;
+  gap: 30px;
   justify-content: center;
-  letter-spacing: 0.1px;
 }
 
 .link-to-main {
@@ -32,12 +32,10 @@
 .contacts__list {
   line-height: 24.3px;
   list-style-type: none;
-  padding-top: 9px;
-  padding-left: 110px;
+  padding-top: 5px;
   font-style: normal;
-  justify-content: center;
-  display: grid;
-  flex-direction: column;
+  justify-self: center;
+  font-size: 18px;
 }
 
 .overlay {
@@ -230,7 +228,7 @@
 .about__title {
   text-transform: uppercase;
   font-size: 40px;
-  padding-top: 101px;
+  padding-top: 96px;
   padding-left: 72px;
 }
 
@@ -253,13 +251,10 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 185px;
+  grid-template-columns: 1fr min-content 1fr;
   margin-top: 181px;
-  margin-left: 50px;
   margin-bottom: 88px;
-  margin-right: 51px;
-  width: 100%;
+  gap: 11.5em ;
 }
 
 .footer__menu {
@@ -269,12 +264,14 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding-right: 85px;
+  text-wrap: nowrap;
 }
 
 .footer__address {
   font-size: 18px;
   line-height: 24.3px;
+  font-style: normal;
+   margin-left: 50px;
 }
 
 .footer__social-icon {
@@ -282,5 +279,4 @@
   width: 48px;
   height: 48px;
   gap: 48px;
-  justify-content: center;
 }
